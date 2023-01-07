@@ -1,8 +1,8 @@
 import random
-choices = ["Rock", "Paper", "Scissors"]
+rps = ["Rock", "Paper", "Scissors"]
 player = False
 while True:
-    computer = random.choice(choices)
+    computer = random.choice(rps)
     player = input("Choose: rock, paper or  scissors!   ").capitalize()
     # check for draw
     if player == computer:
